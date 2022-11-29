@@ -1,0 +1,41 @@
+steps :
+
+# build docker image 
+- name: 'gcr.io/cloud-builders/docker'
+  id: Build profile-ui Image
+  args:
+  - 'build'
+  - '-t'
+  - 'gcr.io/$PROJECT_ID/profile-ui:latest'
+  - '-f'
+  - 'Dockerfile'
+  - '.'
+
+# docker push to container registry
+- name: 'gcr.io/cloud-builders/docker'
+  id: Publish profile-ui Image
+  args:
+  - 'push'
+  - 'gcr.io/$PROJECT_ID/profile-ui:latest'
+
+# Clone deploy repository
+- name: 'gcr.io/cloud-builders/gcloud'
+  id: Clone profile-ui deploy repository
+  entrypoint: /bin/sh
+  args:
+  - '-c'
+  - |
+    git clone https://github.com/harideveloper/profile-deployments.git && \
+    cd profile-deployments && \
+    git checkout master && \
+    git config user.email $(gcloud auth list --filter=status:ACTIVE --format='value(account)')
+# Deploy to GKE Cluster
+- name: 'gcr.io/cloud-builders/kubectl'
+  id: Deploy profile-ui to GKE Cluster
+  args:
+  - 'apply'
+  - '-f'
+  - './profile-ui/'
+  env:
+  - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
+  - 'CLOUDSDK_CONTAINER_CLUSTER=profile-ui'

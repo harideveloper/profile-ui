@@ -1,0 +1,68 @@
+.technolgyNews__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.technolgyNews__item {
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.technolgyNews__item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+}
+
+.technolgyNews__item-image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.technolgyNews__item h3 {
+  margin: 1.2rem 0 2rem;
+}
+
+.technolgyNews__item-cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.tag-container {
+  min-width : 60% ;
+  display : flex;
+  flex-wrap : wrap;
+  min-height : 30 px;
+  border : 1px solid grey;
+  border-radius : 5px;
+  padding : 5px
+}
+
+.tag {
+  display: flex;
+  align-items : center;
+  padding : 5px;
+  border : 1px solid gray;
+  border-radius : 5px;
+  height : 25px;
+  margin-right : 5p
+}
+
+@media screen and (max-width: 1024px) {
+  .technolgyNews__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .technolgyNews__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
