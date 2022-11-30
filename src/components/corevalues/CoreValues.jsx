@@ -6,9 +6,9 @@ import {FiUsers,FiUmbrella,FiCoffee,FiBookOpen} from 'react-icons/fi'
 
 const coreValues = [
   {coreValue : 'Open to discussion', core_value_desc : 'Share and seek ideas', icon:<FiBookOpen className='corevalues__icon'/>},
-  {coreValue : 'Learning Mindset ', core_value_desc : 'best trait to not be layed off',icon:<FaAward className='corevalues__icon'/>},
+  {coreValue : 'Learning Mindset ', core_value_desc : 'Best trait to not be layed off',icon:<FaAward className='corevalues__icon'/>},
   {coreValue : 'Actively Involved', core_value_desc : 'Listening is the best trait',icon:<FiUsers className='corevalues__icon'/>},
-  {coreValue : 'Effective Planning', core_value_desc : 'Good way to avoid not working on weekends',icon:<FiUmbrella className='corevalues__icon'/>},
+  {coreValue : 'Effective Planning', core_value_desc : 'Good way to avoid working on weekends',icon:<FiUmbrella className='corevalues__icon'/>},
   {coreValue : 'Trust', core_value_desc : 'Earn the trust and the rest follows', icon:<FiCoffee className='corevalues__icon'/>}
 ]
 
