@@ -1,50 +1,34 @@
 import React from 'react'
 import './contact.css'
-import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
-import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
-const Contact = () => {
+const Contact = ({ context, payload }) => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_3fjfb17', 'template_ky1ucaz', form.current, 'user_641J0AWGxx4qcKi835yDq')
-
     e.target.reset()
   };
 
   return (
     <section id='contact'>
-      <h5>People call me Hari, but you can me anyitme !!!</h5>
-      <h2>Contact Me</h2>
-
+      <h5>{context.tagline}</h5>
+      <h2>{context.pageName}</h2>
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
-            <MdOutlineEmail className='contact__option-icon'/>
-            <h4>Email</h4>
-            {/* <h5>contact_ps@publicissapient.com</h5> */}
-            <h6>hariprasad.sundharesan@gmail.com</h6>
-            <a href="mailto:hariprasad.sundharesan@gmail.com" target="_blank">Send a message</a>
-          </article>
-          <article className="contact__option">
-            <RiMessengerLine className='contact__option-icon'/>
-            <h4>Messenger</h4>
-            <h5>contact_me</h5>
-            <a href="https://m.me/ernest.achiever" target="_blank">Send a message</a>
-          </article>
-          <article className="contact__option">
-            <BsWhatsapp className='contact__option-icon'/>
-            <h4>WhatsApp</h4>
-            <h5>+91 96777 96153</h5>
-            <a href="https://api.whatsapp.com/send?phone=+919677796153" target="_blank">Send a message</a>
-          </article>
+          {payload.contact_apps.map(contact =>
+            <article key={contact.id} className='contact__option'>
+              {contact.icon}
+              <h4>{contact.primary}</h4>
+              <h6>{contact.seconday}</h6>
+              <a href={contact.link} target="_blank" rel="noopener noreferrer">{contact.message}</a>
+            </article>
+          )}
         </div>
-        {/* END OF CONTACT OPTIONS */}
+
+        {/* Contacts */}
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />

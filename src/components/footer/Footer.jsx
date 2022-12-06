@@ -1,32 +1,22 @@
 import React from 'react'
 import './footer.css'
-import {FaFacebookF} from 'react-icons/fa'
-import {FiInstagram} from 'react-icons/fi'
-import {IoLogoTwitter} from 'react-icons/io'
 
-const Footer = () => {
+const Footer = ({context,footlinks,payload}) => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>Hariprasad Sundaresan</a>
-
+      <a href={context.link} className='footer__logo'>{context.pageName}</a>
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
-        <li><a href="#CoreValues">Ethics</a></li>
-        <li><a href="#events">About Me</a></li>
-        <li><a href="#services">Let's talk projects </a></li>
-        <li><a href="#portfolio">Articles I like</a></li>
-        {/* <li><a href="#testimonials">Testimonials</a></li> */}
-        <li><a href="#contact">Contact</a></li>
+        {footlinks.map((footnav) => 
+          <li key={footnav.name}><a href={footnav.link}>{footnav.name}</a></li>
+        )}
       </ul>
-
       <div className="footer__socials">
-        <a href="https://www.facebook.com/hari.p.sundaresan"><FaFacebookF/></a>
-        <a href="https://instagram.com"><FiInstagram/></a>
-        <a href="https://twitter.com"><IoLogoTwitter/></a>
+          {payload.footer_apps.map(apps => 
+            <a href={apps.link} key={apps.id}>{apps.icon}</a>
+          )}
       </div>
-
       <div className="footer__copyright">
-        <small>&copy; All rights reserved.</small>
+        <small>{context.tagline}</small>
       </div>
     </footer>
   )

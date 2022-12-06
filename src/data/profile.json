@@ -1,0 +1,305 @@
+{
+    "profileName" : "Haripasad Sundaresan",
+    "moto" : "Whatever i do, i always give 100% unless it is donating blood !!",
+    "header" : [
+        {
+            "id" : 1,
+            "pageName" : "Home",
+            "greeting" : "I'm",
+            "tagline" : "Cloud Consultant , Specialised in Google Cloud. I specialize in financial sector helping them in application modernisation and infrastructure Automation",
+            "profilepic" : "/assets/profile/profile.jpg",
+            "cv" : "/assets/cv/resume.pdf",
+            "profileName" : "Haripasad Sundaresan",
+            "primary" : "Résumé",
+            "secondary" : "Connéct with mé"
+        }
+    ],
+    "aboutMe" : [
+        {
+            "id" : 1,
+            "pageName" : "About Me",
+            "tagline" : "sometimes i panic and think there's a crazy person in my house, then i realise it's just me !!!",
+            "title" : "I'd like to do"
+
+        }
+    ],
+    "ethics" : [
+        {
+            "pageName" : "About My Key Ethics",
+            "tagline" : "Well I try to follow some of them !!!",
+            "moto" : "Whatever i do, i always give 100% unless it is donating blood !!",
+            "bg" : "/assets/ethics/ethics.png",
+            "connect": "Let's Talk" 
+
+        }
+    ],
+    "project" : [
+        {
+            "pageName" : "Let's talk about projects",
+            "tagline" : "home is where wifi connects automatically !!!"
+        }
+    ],
+    "articles" : [
+        {
+            "pageName" : "Articles I like",
+            "tagline" : "You're going to spend all day reading this, it's bound to happen"
+        }
+    ],
+    "contact" : [
+        {
+            "pageName" : "Contact Me",
+            "tagline" : "People call me Hari, but you can me anyitme !!!"
+        }
+    ],
+
+    "footer" : [
+        {
+            "pageName" : "Hariprasad Sundaresan",
+            "tagline" : "All rights reserved.",
+            "link" : "/#"
+        }
+    ],
+
+    "footlinks" : [
+        { "id": 1, "link" : "#", "name" : "Home"},
+        { "id": 2, "link" : "#aboutme", "name" : "About Me"},
+        { "id": 3, "link" : "#projects", "name" : "Let's talk about projects"},
+        { "id": 4, "link" : "#ethics", "name" : "About My Key Ethics"},
+        { "id": 5, "link" : "#techbits", "name" : "Articles I like"},
+        { "id": 6, "link" : "#contact", "name" : "Contact Me"}
+         
+    ],
+
+    "pages" : [
+        { 
+            "id" : 1,
+            "pagename" : "Home", 
+            "greeting":"I'm",
+            "link":"#",
+            "desc":"Haripasad Sundaresan", 
+            "tagline" : "Cloud Consultant , Specialised in Google Cloud. I specialize in financial sector helping them in application modernisation and infrastructure Automation"
+        },
+        { 
+            "id" : 2,
+            "pagename" : "About Me",
+            "greeting":"",
+            "link":"#aboutme",
+            "desc":"", 
+            "tagline" : "sometimes i panic and think there's a crazy person in my house, then i realise it's just me !!!"},
+        { 
+            "id" : 3,
+            "pagename" : "Let's talk about projects",
+            "greeting":"",
+            "link":"#projects",
+            "desc":"Let's talk about projects",
+            "tagline" : "home is where wifi connects automatically !!!"
+        },
+        { 
+            "id" : 4,
+            "pagename" : "About My Key Ethics",
+            "greeting":"",
+            "link":"#ethics",
+            "desc":"About My Key Ethics",
+            "tagline" : "Well I try to follow some of them !!!"
+        },
+        {   
+            "id" : 5,
+            "pagename" : "Articles I like",
+            "greeting":"",
+            "link":"#techbits",
+            "desc":"", 
+            "tagline" : "You're going to spend all day reading this, it's bound to happen"
+        },
+        { 
+            "id" : 6,
+            "pagename" : "Contact Me",
+            "greeting":"",
+            "link":"#contact",
+            "desc":"",
+            "tagline" : "People call me Hari, but you can me anyitme !!!"
+        }
+    ],
+    "assets" : {
+        "profilepic" : "/assets/profile/profile.jpg",
+        "bg" : "/assets/bg/bg-texture.png",
+        "cv" : "/assets/cv/resume.pdf",
+        "ethics" : "/assets/ethics/ethics.png",
+        "tech" : [
+            {
+                "id": 1,
+                "image": "/assets/tech/techbit1.jpg",
+                "title": "Managing Credentials in Terraform Cloud & Enterprise",
+                "vox": "https://www.hashicorp.com/blog/managing-credentials-in-terraform-cloud-and-enterprise",
+                "readMore": "https://www.hashicorp.com/blog/managing-credentials-in-terraform-cloud-and-enterprise",
+                "mins": "5 mins read"
+            },
+            {
+                "id": 2,
+                "image": "/assets/tech/techbit2.jpg",
+                "title": "Cloud Finops and Cloud Governance",
+                "vox": "https://cloud.google.com/files/guide-to-financial-governance.pdf",
+                "readMore": "https://cloud.google.com/files/guide-to-financial-governance.pdf",
+                "mins": "9 mins read"
+            },
+            {
+                "id": 3,
+                "image": "/assets/tech/techbit3.jpg",
+                "title": "Building a data lakehouse on Google Cloud Platform",
+                "vox": "https://services.google.com/fh/files/misc/building-a-data-lakehouse.pdf",
+                "readMore": "https://services.google.com/fh/files/misc/building-a-data-lakehouse.pdf",
+                "mins": "9 mins read"
+            },
+            {
+                "id": 4,
+                "image": "/assets/tech/techbit4.jpg",
+                "title": "Beyond Prod Protection",
+                "vox": "https://cloud.google.com/docs/security/beyondprod",
+                "readMore": "https://cloud.google.com/docs/security/beyondprod",
+                "mins": "8 mins read"
+            },
+            {
+                "id": 5,
+                "image": "/assets/tech/techbit5.png",
+                "title": "Database Migration Strategies",
+                "vox": "https://cloud.google.com/architecture/database-migration-concepts-principles-part-1",
+                "readMore": "https://cloud.google.com/architecture/database-migration-concepts-principles-part-1",
+                "mins": "15 mins read"
+              },
+              {
+                "id": 6,
+                "image": "/assets/tech/techbit6.jpg",
+                "title": "Disaster Recovery Strategies",
+                "vox": "https://cloud.google.com/architecture/dr-scenarios-planning-guide",
+                "readMore": "https://cloud.google.com/architecture/dr-scenarios-planning-guide",
+                "mins": "11 mins read"
+              }
+        ]
+    },
+    "hobbies" : [
+        { "id" :"1", "name" : "Hikes & Walks", "hobby" : "Short/Moderate walks breaking for a pint"},
+        { "id" :"2","name" : "Music", "hobby" : "Ardent Music lover and always listening to music"},
+        { "id" :"3","name": "Genre", "hobby" : "Jazz, Blues & Rock"},
+        { "id" :"4","name" : "Cooking", "hobby" : "My taste buds are blessed !!"},
+        { "id" :"5","name": "Gardening", "hobby" : "Gardening is therapy to me"},
+        { "id" :"6","name" : "Pub & Football", "hobby" : "What can go wrong !!"}
+    ],
+    "skills" : [
+        {
+            "title" : "Engineering Interests",
+            "skillset" : [
+                { "id" : 1, "name" : "Cloud", "desc" : "Design, Develop & Architecture in Google Cloud"},
+                { "id" : 2, "name" : "Application Development", "desc" : "App development in Javascript, Java & Python"},
+                { "id" : 3, "name"  : "Application Modernisation", "desc" : "Serverless , VM & Container Workoads"},
+                { "id" : 4, "name" : "Infrastructure Automation", "desc" : "Cloud Infrastructure with Terraform & Packer"},
+                { "id" : 5, "name"  : "Data Migration", "desc" : "Building Data pipelines in Google Cloud"},
+                { "id" : 6, "name"  : "Devops", "desc" : "Application & infrastructure CI/CD pipelines"}
+            ]
+        },
+        {
+            "title" : "Geek's world",
+            "skillset" : [
+                { "id" : 1, "name" : "Javacript Frameworks", "desc" : "React JS, Node JS, Express JS & Next JS"},
+                { "id" : 2, "name" : "J2EE Frameworks", "desc" : "Spring Boot, Spring Cloud & Microservices"},
+                { "id" : 3, "name" : "Databases", "desc" : "MySQL, Oracle, SQLServer, PostgresSQL & MongoDB"},
+                { "id" : 4, "name" : "Devops", "desc" : "Jenkins, Nexus, Sonarqube & Vault"},
+                { "id" : 5, "name" : "Scripting", "desc" : "Bash, YAML, Groovy & Powershell"},
+                { "id" : 6, "name": "Build Frameworks", "desc" : "Maven, Gradle, Webpack & NPM"}
+            ]
+        },
+        {
+            "title" : "Cloud Corner",
+            "skillset" : [
+                { "id" : 1, "name"  : "Cloud Databases", "desc" : "Cloud SQL, Cloud Spanner & Bigquery"},
+                { "id" : 2, "name"  : "Cloud Compute", "desc" : "App Engine, GKE, GCE, Cloud Run & Functions"},
+                { "id" : 3, "name"  : "Cloud Data", "desc" : "GCS, Dataflow, Dataproc & BigQuery"},
+                { "id" : 4, "name" : "Cloud Security", "desc" : "Armour, Anthos Policy Controller & Prisma Cloud"},
+                { "id" : 5, "name" : "Configuration", "desc" : "Ansible, Anthos Config Management"},
+                { "id" : 6, "name" : "GitOps", "desc" : "Git Workflow, Cloud Build, Helm & Kustomise"}  
+            ]
+        }
+    ],
+    "projects" : [
+        {
+            "type" : "Application Modernisation",
+            "project" : [
+                { "id":1, "name" : "Modernisation of Fault Monitoring App from VM to GKE Workloads"},
+                { "id":2, "name" : "Application Modernisation of Alumini Services from VM to Serverless workloads in GCP"},
+                { "id":3, "name" : "Lift & Shift Migration of Colleague App to GCE Compute VMs"},
+                { "id":4, "name" : "Data Migration of Investment Metrics Indicator to Dataflow & BigQuery"},
+                { "id":5, "name" : "Prototype to clean & extract data (python app) used in ML Models within Azure ML Workspace"}
+            ]
+        },
+        {
+            "type" : "Infrastucture Automation",
+            "project" : [
+                { "id":1, "name" : "Cloud Centre of Excellence in developing/architecting re-usable cloud blueprints"},
+                { "id":2, "name" : "Re-usable patterns for conatiner workloads using GKE & Cloud SQL/MongoDB"},
+                { "id":3, "name" : "VM Image Baking Process to build Custom Packer Images"},
+                { "id":4, "name" : "Platform updates using Anthos Config Sync, GKE & GitOps"},
+                { "id":5, "name" : "Build GCP Landing Zone Accelerator for small to medium customers"},
+                { "id":6, "name" : "Organisation policy guard-rails using InSpec for GCP Cloud SQL (MySQL) Services"}
+            ]
+        },
+        {
+            "type" : "Cloud & Devops",
+            "project" : [
+                { "id":1, "name" : "Setup Prisma Defender across GKE Clusters to enforce central policies"},
+                { "id":2, "name" : "Docker Image Baking/Scanning process using Artifactory and Xray"},
+                { "id":3, "name" : "Developed Infrastructure CI/CD pipeline using GITLAB CI for internal application hosted GCP GKE using Workload Identity"},
+                { "id":4, "name" : "Built CI/CD pipelines for 3 Tier App (MERN Stack) using Jenkins"},
+                { "id":5, "name" : "Designed/Developed serverless architecture case tudies solutions using GCP Serverless Services"}
+            ]
+        }
+    ],
+    "tech" : [
+        {
+            "id": 1,
+            "image": "/assets/tech/techbit1.jpg",
+            "title": "Managing Credentials in Terraform Cloud & Enterprise",
+            "vox": "https://www.hashicorp.com/blog/managing-credentials-in-terraform-cloud-and-enterprise",
+            "readMore": "https://www.hashicorp.com/blog/managing-credentials-in-terraform-cloud-and-enterprise",
+            "mins": "5 mins read"
+        },
+        {
+            "id": 2,
+            "image": "/assets/tech/techbit2.jpg",
+            "title": "Cloud Finops and Cloud Governance",
+            "vox": "https://cloud.google.com/files/guide-to-financial-governance.pdf",
+            "readMore": "https://cloud.google.com/files/guide-to-financial-governance.pdf",
+            "mins": "9 mins read"
+        },
+        {
+            "id": 3,
+            "image": "/assets/tech/techbit3.jpg",
+            "title": "Building a data lakehouse on Google Cloud Platform",
+            "vox": "https://services.google.com/fh/files/misc/building-a-data-lakehouse.pdf",
+            "readMore": "https://services.google.com/fh/files/misc/building-a-data-lakehouse.pdf",
+            "mins": "9 mins read"
+        },
+        {
+            "id": 4,
+            "image": "/assets/tech/techbit4.jpg",
+            "title": "Beyond Prod Protection",
+            "vox": "https://cloud.google.com/docs/security/beyondprod",
+            "readMore": "https://cloud.google.com/docs/security/beyondprod",
+            "mins": "8 mins read"
+        },
+        {
+            "id": 5,
+            "image": "/assets/tech/techbit5.png",
+            "title": "Database Migration Strategies",
+            "vox": "https://cloud.google.com/architecture/database-migration-concepts-principles-part-1",
+            "readMore": "https://cloud.google.com/architecture/database-migration-concepts-principles-part-1",
+            "mins": "15 mins read"
+          },
+          {
+            "id": 6,
+            "image": "/assets/tech/techbit6.jpg",
+            "title": "Disaster Recovery Strategies",
+            "vox": "https://cloud.google.com/architecture/dr-scenarios-planning-guide",
+            "readMore": "https://cloud.google.com/architecture/dr-scenarios-planning-guide",
+            "mins": "11 mins read"
+          }
+    ]
+
+}

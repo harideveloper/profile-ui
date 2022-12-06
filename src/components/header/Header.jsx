@@ -1,27 +1,22 @@
 import React from 'react'
 import './header.css'
-import Newsletter from './Newsletter'
-// import HomeBG from '../../assets/g18.png'
-import HomeBG from '../../assets/profile.JPEG'
-import SocialMedia from './SocialMedia'
+import ConnectMe from '../connect/ConnectMe'
+import SocialMedia from '../socialmedia/SocialMedia'
 
-const Header = () => {
+const Header = ({ context, payload }) => {
   return (
     <header>
       <div className="container header__container">
-        <h5 className="text-light">I'm</h5>
-        <h1>Haripasad Sundaresan</h1>
-        <h5 className="text-light"> Cloud Consultant , Specialised in Google Cloud.
-        I specialize in finanancial transactions helping them in application 
-        modernisation and infrastructure Automation
-       </h5>
-        <Newsletter />
-        <SocialMedia />
+        <h5 className="text-light">{context.greeting}</h5>
+        <h1>{context.profileName}</h1>
+        <h5 className="text-light">{context.tagline}</h5>
+        <ConnectMe cv={context.cv} primary={context.primary} secondary={context.secondary} />
+        <SocialMedia payload={payload} />
         <div className="me">
-          <img src={HomeBG} alt="me" />
+          <img src={context.profilepic} alt="me" />
         </div>
-        <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>
+      <a href="#contact" className='scroll__down'>Scroll Down</a>
     </header>
   )
 }

@@ -1,4 +1,4 @@
-.container.testimonials__container {
+.container.reviews__container {
   width: 40%;
   padding-bottom: 4rem;
 }
@@ -12,7 +12,7 @@
   border: 0.4rem solid var(--color-primary-variant);
 }
 
-.testimonial {
+.reviews {
   background: var(--color-bg-variant);
   text-align: center;
   padding: 2rem;
@@ -34,14 +34,14 @@
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
-  .container.testimonials__container {
+  .container.reviews__container {
     width: 60%;
   }
 }
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px) {
-  .container.testimonials__container {
+  .container.reviews__container {
     width: var(--container-width-sm);
   }
 
