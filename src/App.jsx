@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import AboutMe from './components/aboutme/AboutMe'
+import Certification from './components/certification/Certification'
 import Projects from './components/projects/Projects'
 import Ethics from './components/ethics/Ethics'
 import TechBits from './components/tech/TechBits'
@@ -17,6 +18,7 @@ const App = () => {
   // Page Contexts
   const [head, setHead] = useState([]);
   const [aboutme, setAboutme] = useState([]);
+  const [certification, setCertification] = useState([]);
   const [project, setProject] = useState([]);
   const [ethics, setEthics] = useState([]);
   const [contact, setContact] = useState([]);
@@ -36,6 +38,7 @@ const App = () => {
       // Page Context
       setHead(Content.header[0])
       setAboutme(Content.aboutMe[0])
+      setCertification(Content.certification[0])
       setProject(Content.project[0])
       setEthics(Content.ethics[0])
       setArticles(Content.articles[0])
@@ -83,6 +86,7 @@ const App = () => {
       <Header context={head} payload={Constant} />
       <Nav payload={Constant} />
       <AboutMe context={aboutme} hobbies={hobbies} skills={skills} />
+      <Certification context={certification} payload={Constant} />
       <Projects context={project} projects={projects} />
       <Ethics context={ethics} payload={Constant} />
       <TechBits context={articles} techbits={tech} />

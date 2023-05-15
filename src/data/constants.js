@@ -13,6 +13,12 @@ import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
 
+import {FcGoogle} from 'react-icons/fc'
+import {AiOutlineTag} from 'react-icons/ai'
+
+
+
+
 import {AiOutlineHome} from 'react-icons/ai'
 import {AiOutlineUser} from 'react-icons/ai'
 import {RiServiceLine} from 'react-icons/ri'
@@ -26,6 +32,15 @@ export const navbar = [
     { name : "ethics", link :"#ethics", icon : <AiOutlineUser/>},
     { name : "contact", link :"#contact", icon : <BiMessageSquareDetail/>}
 ]
+
+export const certification = [
+  { id:'1', name : 'GCP Professional Cloud Architect', creds : 'https://www.credential.net/2daf08b1-a390-4838-87d8-652784372c4a?key=c62ae44930119910f54b4d7893a1cad2f4f20d9b086e2c63e951923c8fb25bc6' },
+  { id:'2', name : 'GCP  Professional Cloud Developer', creds : 'https://www.credential.net/7ac59132-3007-455c-a82d-ce47116a0301?key=30f1748a2d5cb2b8a12f36238565ee46923618e4ce53ccda3881dcd453485c5f'},
+  { id:'3', name : 'GCP Professional Devops Engineer', creds : 'https://www.credential.net/86e6bae9-ca5c-438f-9904-836faa9e7f25?key=6e1a23752ebf32e2d96b584faef03c69449bf579f9640f3460e906aff72f3e30'},
+  { id:'4', name : 'GCP Professional Data Engineer', creds : 'https://www.credential.net/d79111ee-5c9c-4eb7-9f02-17c7703b75a7?key=b50251c202515526d48be328162743553baa8b4064cc2eca12b5ce12666e9f94'},
+  { id:'5', name : 'GCP Associate Cloud Engineer', creds : 'https://www.credential.net/24405d64-e715-4df4-bc8a-4b89a2621b62?key=304fdbbfc1d515415ebef4711cbec496bc5b861a302654e6811ccf9f8ed6630c'}
+];
+
 
 export const socialmedia = [
     { name : "linkedIn", link :"https://www.linkedin.com/in/hariprasad-sundaresan-1bb6101b0/", icon : <BsLinkedin/>},
