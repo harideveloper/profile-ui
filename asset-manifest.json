@@ -1,13 +1,13 @@
 {
-  "main.css": "/react-gh-pages/static/css/main.923e1d6a.chunk.css",
-  "main.js": "/react-gh-pages/static/js/main.5587f6a8.chunk.js",
-  "main.js.map": "/react-gh-pages/static/js/main.5587f6a8.chunk.js.map",
-  "static/js/1.12d24fe4.chunk.js": "/react-gh-pages/static/js/1.12d24fe4.chunk.js",
-  "static/js/1.12d24fe4.chunk.js.map": "/react-gh-pages/static/js/1.12d24fe4.chunk.js.map",
-  "runtime~main.js": "/react-gh-pages/static/js/runtime~main.346eb3ee.js",
-  "runtime~main.js.map": "/react-gh-pages/static/js/runtime~main.346eb3ee.js.map",
-  "static/css/main.923e1d6a.chunk.css.map": "/react-gh-pages/static/css/main.923e1d6a.chunk.css.map",
-  "index.html": "/react-gh-pages/index.html",
-  "precache-manifest.3d270cd2b09799c603fe7c6ad248b86b.js": "/react-gh-pages/precache-manifest.3d270cd2b09799c603fe7c6ad248b86b.js",
-  "service-worker.js": "/react-gh-pages/service-worker.js"
+  "main.css": "/profile-ui/static/css/main.923e1d6a.chunk.css",
+  "main.js": "/profile-ui/static/js/main.5587f6a8.chunk.js",
+  "main.js.map": "/profile-ui/static/js/main.5587f6a8.chunk.js.map",
+  "static/js/1.12d24fe4.chunk.js": "/profile-ui/static/js/1.12d24fe4.chunk.js",
+  "static/js/1.12d24fe4.chunk.js.map": "/profile-ui/static/js/1.12d24fe4.chunk.js.map",
+  "runtime~main.js": "/profile-ui/static/js/runtime~main.1bbdab1e.js",
+  "runtime~main.js.map": "/profile-ui/static/js/runtime~main.1bbdab1e.js.map",
+  "static/css/main.923e1d6a.chunk.css.map": "/profile-ui/static/css/main.923e1d6a.chunk.css.map",
+  "index.html": "/profile-ui/index.html",
+  "precache-manifest.7805e078f31d1442094f47f4b4019d42.js": "/profile-ui/precache-manifest.7805e078f31d1442094f47f4b4019d42.js",
+  "service-worker.js": "/profile-ui/service-worker.js"
 }
