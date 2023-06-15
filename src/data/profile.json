@@ -232,7 +232,7 @@
                 { "id":2, "name" : "Application Modernisation of Alumini Services from VM to Serverless workloads in GCP"},
                 { "id":3, "name" : "Lift & Shift Migration of Colleague App to GCE Compute VMs"},
                 { "id":4, "name" : "Data Migration of Investment Metrics Indicator to Dataflow & BigQuery"},
-                { "id":5, "name" : "Prototype to clean & extract data (python app) used in ML Models within Azure ML Workspace"}
+                { "id":5, "name" : "Cloud Data COE Team migrating Hadoop to GCP Dataproc "}
             ]
         },
         {
