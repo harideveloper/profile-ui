@@ -6,7 +6,7 @@
             "id" : 1,
             "pageName" : "Home",
             "greeting" : "I'm",
-            "tagline" : "Experienced technology leader with expertise in Data & AI programs, ML pipelines, modern data platforms, realtime messaging, and end-to-end AI/ML workloads. Specialised in application modernisation, platform engineering, and delivering scalable solutions on GCP, Kubernetes (GKE), and DevOps platforms",
+            "tagline" : "Cloud Consultant , Specialised in Google Cloud. Hands-on Architect, Polyglot Thinker, Cloud Centre of Excellence,  Infrastructure Automation, Application Modernisation, Application Development , Data Migration & Data Pipelines",
             "profilepic" : "/assets/profile/profile.jpg",
             "cv" : "/assets/cv/resume.pdf",
             "profileName" : "Haripasad Sundaresan",
@@ -189,129 +189,81 @@
         { "id" :"5","name": "Gardening", "hobby" : "Gardening is therapy to me"},
         { "id" :"6","name" : "Pub & Football", "hobby" : "What can go wrong !!"}
     ],
-    "skills": [
+    "skills" : [
         {
-            "title": "Engineering Leadership",
-            "skillset": [
-              { "id": 1, "name": "Customer Orientation", "desc": "Always keeping the end-user in mind" },
-              { "id": 2, "name": "Strategic Planning", "desc": "Turning complex problems into clear roadmaps" },
-              { "id": 3, "name": "Problem Solving", "desc": "Finding solutions where others see obstacles" },
-              { "id": 4, "name": "Team Mentorship", "desc": "Guiding, mentoring, and growing talent" },
-              { "id": 5, "name": "Trusted Relationships", "desc": "Building strong bonds across teams and stakeholders" },
-              { "id": 6, "name": "Engineering Culture", "desc": "Creating environments where engineers thrive" }
-            ]
-        },          
-        {
-            "title": "Programming Skills",
-            "skillset": [
-              { "id": 1, "name": "Polyglot Programming", "desc": "JavaScript, NodeJS, Python, Java, Golang, Bash" },
-              { "id": 2, "name": "Web & Frontend", "desc": "ReactJS, NodeJS, ExpressJS, Streamlit, NextJS, CSS, HTML" },
-              { "id": 3, "name": "Backend & APIs", "desc": "FastAPI, Spring Boot, Spring Cloud, Microservices, API Development" },
-              { "id": 4, "name": "Databases", "desc": "Oracle, MySQL, Postgres, SQL Server, MongoDB, BigQuery, Redis" },
-              { "id": 5, "name": "Scripting & Automation", "desc": "Bash, PowerShell, Groovy, YAML, Python Automation" },
-              { "id": 6, "name": "Data Engineering", "desc": "SQL, Spark, Hive, Hadoop, DAGs, Airflow, Batch & Streaming Pipelines" }
+            "title" : "Engineering Interests",
+            "skillset" : [
+                { "id" : 1, "name" : "Cloud", "desc" : "Design, Develop & Architecture in Google Cloud"},
+                { "id" : 2, "name" : "Application Development", "desc" : "App development in Javascript, Java & Python"},
+                { "id" : 3, "name"  : "Application Modernisation", "desc" : "Serverless , VM & Container Workoads"},
+                { "id" : 4, "name" : "Infrastructure Automation", "desc" : "Cloud Infrastructure with Terraform & Packer"},
+                { "id" : 5, "name"  : "Data Migration", "desc" : "Building Data pipelines in Google Cloud"},
+                { "id" : 6, "name"  : "Devops", "desc" : "Application & infrastructure CI/CD pipelines"}
             ]
         },
         {
-            "title": "Cloud Expertise",
-            "skillset": [
-              { "id": 1, "name": "Cloud Platforms", "desc": "Hybrid & Multi-Cloud, Anthos, GKE, Cloud Run, Functions, App Engine" },
-              { "id": 2, "name": "Networking", "desc": "VPC, DNS, Load Balancers, Service Mesh (Istio), External Peering, On-Prem Interconnects" },
-              { "id": 3, "name": "Data Platforms", "desc": "BigQuery, BigTable, Composer, Airflow, Dataflow, Dataproc, Pub/Sub, Cloud Storage" },
-              { "id": 4, "name": "Security & Governance", "desc": "IAM, KMS, Binary Auth, Org Policy, RBAC, Sentinel, Prisma Cloud" },
-              { "id": 5, "name": "Serverless", "desc": "Cloud Run, Functions, Event-driven Pipelines, Pub/Sub, Streaming Workloads" },
-              { "id": 6, "name": "AI/ML Workloads", "desc": "Vertex AI, Vertex Pipelines, RAG, LLMs (Gemini), Doc AI, AlloyDB, MLOps" }
+            "title" : "Geek's world",
+            "skillset" : [
+                { "id" : 1, "name" : "Javacript Frameworks", "desc" : "React JS, Node JS, Express JS & Next JS"},
+                { "id" : 2, "name" : "J2EE Frameworks", "desc" : "Spring Boot, Spring Cloud & Microservices"},
+                { "id" : 3, "name" : "Databases", "desc" : "MySQL, Oracle, SQLServer, PostgresSQL & MongoDB"},
+                { "id" : 4, "name" : "Devops", "desc" : "Jenkins, Nexus, Sonarqube & Vault"},
+                { "id" : 5, "name" : "Scripting", "desc" : "Bash, YAML, Groovy & Powershell"},
+                { "id" : 6, "name": "Build Frameworks", "desc" : "Maven, Gradle, Webpack & NPM"}
             ]
         },
         {
-            "title": "AI/ML Expertise",
-            "skillset": [
-              { "id": 1, "name": "ML Platforms", "desc": "Vertex AI, Vertex Pipelines, GPU Workloads, Model Training & Tuning" },
-              { "id": 2, "name": "Generative AI", "desc": "LLMs (Gemini), RAG Architectures, Doc AI, Text Embeddings, Agentic AI" },
-              { "id": 3, "name": "MLOps", "desc": "Kubeflow Pipelines, CI/CD for ML, Model Metrics, Deployment & Promotion, Serverless ML" },
-              { "id": 4, "name": "Agentic AI", "desc": "Agent AI, MCP, A2A Protocols, Workflow Automation, Developer Productivity" },
-              { "id": 5, "name": "AI Research & Prototyping", "desc": "Rapid Prototyping, Experimental POC & Workflows" },
-              { "id": 6, "name": "Data Science Tools", "desc": "Python, Pandas, NumPy, Scikit-learn, PyTorch, TensorFlow, Model Evaluation" }
+            "title" : "Cloud Corner",
+            "skillset" : [
+                { "id" : 1, "name"  : "Cloud Databases", "desc" : "Cloud SQL, Cloud Spanner & Bigquery"},
+                { "id" : 2, "name"  : "Cloud Compute", "desc" : "App Engine, GKE, GCE, Cloud Run & Functions"},
+                { "id" : 3, "name"  : "Cloud Data", "desc" : "GCS, Dataflow, Dataproc & BigQuery"},
+                { "id" : 4, "name" : "Cloud Security", "desc" : "Armour, Anthos Policy Controller & Prisma Cloud"},
+                { "id" : 5, "name" : "Configuration", "desc" : "Ansible, Anthos Config Management"},
+                { "id" : 6, "name" : "GitOps", "desc" : "Git Workflow, Cloud Build, Helm & Kustomise"}  
             ]
-        },
-        {
-            "title": "Infra, DevOps & SRE",
-            "skillset": [
-              { "id": 1, "name": "Container & Orchestration", "desc": "Docker, Kubernetes, Helm, Kustomize, Istio, FluxCD, Cloud Deploy" },
-              { "id": 2, "name": "Platform Engineering", "desc": "Terraform, Packer, Kitchen, Inspec, Vault, Config Sync, Policy as Code" },
-              { "id": 3, "name": "CI/CD & Tooling", "desc": "Git Workflows, Jenkins, Skaffold, Nexus, Artifact Registry, SonarQube" },
-              { "id": 4, "name": "Observability", "desc": "Grafana, Prometheus, ELK, OpenTelemetry, Dynatrace, Flagger" },
-              { "id": 5, "name": "Reliability", "desc": "Locust, JVM Tuning, SLA/SLO/SLI, Incident Response, Performance Metrics" },
-              { "id": 6, "name": "Networking & Security", "desc": "VPCs, Load Balancers, IAM, KMS, Org Policies, RBAC, Binary Authorization" }
-            ]
-        }          
-      ],  
+        }
+    ],
     "projects" : [
         {
-            "type": "ML Platform",
-            "project": [
-              { "id": 1, "name": "Design & delivery of ML platform with self-service workflows and standardised catalogue" },
-              { "id": 2, "name": "MLOps catalogue in Backstage with reusable blueprints, demo models, and CI/CD pipelines" },
-              { "id": 3, "name": "RAG and LLM workflows using Vertex AI, Doc AI, AlloyDB for generative AI use cases" },
-              { "id": 4, "name": "Agentic AI prototypes with MCP, A2A Protocol, and retrieval-augmented LLMs" },
-              { "id": 5, "name": "End-to-end observability using Cloud Run, BigQuery, and Looker dashboards" }
+            "type" : "Application Modernisation",
+            "project" : [
+                { "id":1, "name" : "Modernisation of Fault Monitoring App from VM to GKE Workloads"},
+                { "id":2, "name" : "Application Modernisation of Alumini Services from VM to Serverless workloads in GCP"},
+                { "id":3, "name" : "Lift & Shift Migration of Colleague App to GCE Compute VMs"},
+                { "id":4, "name" : "Data Migration of Investment Metrics Indicator to Dataflow & BigQuery"},
+                { "id":5, "name" : "Cloud Data COE Team migrating Hadoop to GCP Dataproc "}
             ]
         },
         {
-            "type" : "Realtime Streaming Platform",
-            "project": [
-                { "id": 1, "name": "Discovery and design for large-scale streaming platform migration to GCP & Kafka" },
-                { "id": 2, "name": "Implemented load spikes using GKE, Kafka, MongoDB, GitLab CI, Skaffold,Node.js/Golang apps" },
-                { "id": 3, "name": "Designed multi-network design with shared VPCs, peering, and on-prem interconnects" },
-                { "id": 4, "name": "Developed reusable Helm charts to standardise Kafka consumer deployments in GKE" },
-                { "id": 5, "name": "Configured istio service mesh rules for secure external traffic routing across clusters" },
-                { "id": 6, "name": "Established SRE dashboards using Cloud Monitoring, Grafana, New Relic, OpenTelemetry" }
-              ]
+            "type" : "Infrastucture Automation",
+            "project" : [
+                { "id":1, "name" : "Cloud Centre of Excellence in developing/architecting re-usable cloud blueprints"},
+                { "id":2, "name" : "Re-usable patterns for conatiner workloads using GKE & Cloud SQL/MongoDB"},
+                { "id":3, "name" : "VM Image Baking Process to build Custom Packer Images"},
+                { "id":4, "name" : "Platform updates using Anthos Config Sync, GKE & GitOps"},
+                { "id":5, "name" : "Build GCP Landing Zone Accelerator for small to medium customers"},
+                { "id":6, "name" : "Organisation policy guard-rails using InSpec for GCP Cloud SQL (MySQL) Services"}
+            ]
         },
         {
-            "type": "Hadoop to GCP Migration",
-            "project": [
-              { "id": 1, "name": "Defined reusable migration patterns for large-scale Hadoop to GCP migrations" },
-              { "id": 2, "name": "Designed cloud patterns using Dataproc, Dataflow, BigQuery, BigTable, GKE, and Vertex AI" },
-              { "id": 3, "name": "Implemented platform enhancements and SRE dashboards for analytics workloads" },
-              { "id": 4, "name": "Conducted design/code reviews and implemented data protection with Protegrity" }
+            "type" : "Cloud & Devops",
+            "project" : [
+                { "id":1, "name" : "Setup Prisma Defender across GKE Clusters to enforce central policies"},
+                { "id":2, "name" : "Docker Image Baking/Scanning process using Artifactory and Xray"},
+                { "id":3, "name" : "Developed Infrastructure CI/CD pipeline using GITLAB CI for internal application hosted GCP GKE using Workload Identity"},
+                { "id":4, "name" : "Built CI/CD pipelines for 3 Tier App (MERN Stack) using Jenkins"},
+                { "id":5, "name" : "Designed/Developed serverless architecture case tudies solutions using GCP Serverless Services"}
             ]
-          },
-          {
-            "type": "Cloud Engineering Platform",
-            "project": [
-              { "id": 1, "name": "Architected reusable GCP blueprints for core platform engineering teams" },
-              { "id": 2, "name": "Implemented Anthos Config Management (Config Sync) for 100+ GKE clusters" },
-              { "id": 3, "name": "Authored Terraform modules and automated GPU VM images for ML workloads" },
-              { "id": 4, "name": "Developed Python scripts to automate GPU VM creation and testing" }
-            ]
-          },
-          {
-            "type": "Cloud Enablers",
-            "project": [
-              { "id": 1, "name": "Developed reusable application blueprints using NodeJS, GKE, PostgreSQL" },
-              { "id": 2, "name": "Integrated automated compliance testing using Chef InSpec into CI/CD pipelines" },
-              { "id": 3, "name": "Enhanced SDLC with Docker image management, Artifactory, XRay, and performance testing" },
-              { "id": 4, "name": "Delivered cloud infrastructure for event management apps using Firebase, Functions, Azure DevOps" }
-            ]
-          },
-          {
-            "type": "Early Career Projects",
-            "project": [
-              { "id": 1, "name": "Full-stack development using Java, NodeJS, ReactJS, Python, MongoDB, and OracleDB" },
-              { "id": 2, "name": "Backend integrations and cloud deployments across multiple banking applications" },
-              { "id": 3, "name": "Designed and optimised DevOps and SDLC workflows with CI/CD, and Kubernetes/Helm" },
-              { "id": 5, "name": "Supported multiple cloud projects with GCP, Docker, and containerised deployments" }
-            ]
-          }
+        }
     ],
     "tech" : [
         {
             "id": 1,
             "image": "/assets/tech/techbit1.jpg",
-            "title": "Cloud FinOps Assistant Agent with ADK & MCP Toolbox",
-            "vox": "https://medium.com/google-cloud/build-a-google-cloud-finops-assistant-agent-with-adk-mcp-toolbox-for-databases-764dc463a5dc",
-            "readMore": "https://medium.com/google-cloud/build-a-google-cloud-finops-assistant-agent-with-adk-mcp-toolbox-for-databases-764dc463a5dc",
+            "title": "Managing Credentials in Terraform Cloud & Enterprise",
+            "vox": "https://www.hashicorp.com/blog/managing-credentials-in-terraform-cloud-and-enterprise",
+            "readMore": "https://www.hashicorp.com/blog/managing-credentials-in-terraform-cloud-and-enterprise",
             "mins": "5 mins read"
         },
         {
